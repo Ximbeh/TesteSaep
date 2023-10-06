@@ -1,0 +1,34 @@
+.navigation{
+    background-color: rgb(204, 204, 204);
+    width: 3.5vw;
+    height: 100vh;
+  
+    
+}
+
+.navigation ul{
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.navigation ul li{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(109, 109, 109);
+    list-style: none;
+    transition: .5s;
+}
+
+.navigation ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+ }
+
+ .navigation ul li:hover{
+    transform: scale(1.1);
+    background-color: rgb(74, 74, 74);
+ }
